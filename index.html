@@ -1,0 +1,111 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=ANSI" />
+    <title>Função afim</title>
+
+
+    <link href="css/estilo.css" rel="stylesheet" type="text/css" />
+
+
+    <script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/efeitos.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/gerador.js" type="text/javascript" charset="utf-8"></script>
+
+
+    <script type="text/javascript">
+    // <![CDATA[
+    // ]]>
+    </script>
+
+
+    <script language="javascript">
+    </script>
+</head>
+
+<body>
+    <div class="contem">
+        <div id="corpo">
+            <div class="lcolun">
+                <div id="explica" class="central">
+                    Entre com os valores de a e b de uma função afim de forma f(x) = ax + b.
+                </div>
+
+
+                <br>
+                <p class="ordem">1&ordm;</p>
+
+
+                <div id="formulario1" class="formulario">
+                    <form>
+                        <fieldset id="field1" class="field">
+                            <p><input class="txtarea" type="text" name="respnome" id="resp1" size="20" maxlength="3"
+                                    placeholder="0" /></p>
+                        </fieldset>
+                    </form>
+                </div>
+
+
+                <div id="formulario2" class="formulario">
+                    <form>
+                        <fieldset id="field2" class="field">
+                            <p><input class="txtarea" type="text" name="respnome" id="resp2" size="20" maxlength="3"
+                                    placeholder="0" /></p>
+                        </fieldset>
+                    </form>
+                </div>
+
+                <div class="clear"></div>
+                <br>
+
+
+                <div id="buttons">
+                    <input type="button" class="botao sombra" id="gerar" value="Gerar">
+                    <input type="button" class="botao sombra" id="clear" value="Limpar">
+                </div>
+            </div>
+
+
+            <div class="rcolun">
+                <canvas id="myCanvas" width="400" height="400"></canvas>
+                <br><br>
+            </div>
+
+
+            <div class="clear"></div>
+
+
+            <div id="colunas">
+                <div id="enuncia">
+                    <p id="funcao" class="lado funcao">Função</p>
+                    <p class="lado inter">Interseção com o eixo y</p>
+                    <p class="lado inter">Interseção com o eixo x</p>
+
+
+                    <br>
+                    <div class="clear"></div>
+
+
+                    <div id="funcao1" class="lado funcao">
+                        <div class="lado">f(x) = </div>
+                        <div id="a" class="lado"></div>
+                        <div class="lado esconde"> x + </div>
+                        <div id="b" class="lado"></div>
+                    </div>
+
+
+                    <p id="y1" class="lado inter"></p>
+                    <p id="x1" class="lado inter"></p>
+
+
+                    <br>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
